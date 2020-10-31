@@ -1,5 +1,6 @@
-import org.junit.Before;
-import org.junit.Test;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import java.io.File;
 import java.io.IOException;
@@ -19,7 +20,7 @@ public class CodyJamsTest {
 
     private CodyJams codyJams;
 
-    @Before
+    @BeforeEach
     public void init() {
         codyJams = new CodyJams();
     }
